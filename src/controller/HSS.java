@@ -5,7 +5,7 @@
  * secure communication thereafter                               *
  *****************************************************************/
 
-package net.floodlightcontroller.MTP3;
+package net.floodlightcontroller.sdnepc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
