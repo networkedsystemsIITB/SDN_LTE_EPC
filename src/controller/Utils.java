@@ -1,7 +1,7 @@
 /****************************************************************
  * This class contains various utility methods used in our code *
  ****************************************************************/
-package net.floodlightcontroller.MTP3;
+package net.floodlightcontroller.sdnepc;
 
 import javax.crypto.Mac;
 import java.io.UnsupportedEncodingException;
