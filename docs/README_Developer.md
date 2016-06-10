@@ -3,7 +3,7 @@
 The manual contains a brief overview of the project source code. The RAN simulator is coded in `C/C++` and the controller uses `Java`. We start by describing sequence of procedures that take place in the RAN simulator (see Fig. 1).
 
 <div align="center">
-<img src="../images/ue_life_cycle.png" alt="Fig. 1: Life cycle of a simulated UE" width="450" height="420" />
+<img src="images/ue_life_cycle.png" alt="Fig. 1: Life cycle of a simulated UE" width="450" height="420" />
 </div>
 <p align="center">Fig. 1: Life cycle of simulated UE(s)</p>
 
@@ -23,7 +23,7 @@ Following are the steps:
 RAN is a multi-threaded simulator in which each thread simulates the life cycle of a UE. Each iteration of the threads generates a new UE which follows the steps shown in Fig. 1. If sending data, each UE thread uses iperf3 client to connect with a corresponding iperf3 server running on the Sink (see Fig. 2). The structure of the RAN code has been depicted in Fig. 3.
 
 <div align="center">
-<img src="../images/end_simulators.png" alt="Fig. 2: Overview of the setup" />
+<img src="images/end_simulators.png" alt="Fig. 2: Overview of the setup" />
 </div>
 <p align="center">Fig. 2: Overview of the setup</p>
 
@@ -33,7 +33,7 @@ RAN is a multi-threaded simulator in which each thread simulates the life cycle 
 - The file *utils.cpp* contains various utility functions such as hash MAC (Message Authentication Code), Encryption/Decryption, etc.
 
 <div align="center">
-<img src="../images/ran_code_structure.png" alt="Fig. 2: Overview of the setup" <img src="ue_life_cycle.png" alt="Fig. 3: Code structure of RAN simulator" width="390" height="350" />
+<img src="images/ran_code_structure.png" alt="Fig. 2: Overview of the setup" <img src="ue_life_cycle.png" alt="Fig. 3: Code structure of RAN simulator" width="390" height="350" />
 </div>
 <p align="center">Fig. 3: Code structure of RAN simulator</p>
 
