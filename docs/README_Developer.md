@@ -1,6 +1,6 @@
 ## SDN EPC Developer Guide
 
-The manual contains a brief overview of the project source code. The RAN simulator is coded in `C/C++` and the controller uses `Java`. We start by describing the sequence of procedures that take place in the RAN simulator (see Figure 1).
+The manual contains a brief overview of the project source code. The RAN simulator is coded in `C/C++` and the controller uses `Java`. We start by describing sequence of procedures that take place in the RAN simulator (see Fig. 1).
 
 <div align="center">
 <img src="../images/ue_life_cycle.png" alt="Fig. 1: Life cycle of a simulated UE" width="450" height="420" />
