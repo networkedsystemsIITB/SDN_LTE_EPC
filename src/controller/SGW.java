@@ -5,7 +5,7 @@
  * contacts PGW-C on behalf of MME for allocating IP address *
  * and for install/deleting rules on PGW-D                   *
  *************************************************************/
-package net.floodlightcontroller.MTP3;
+package net.floodlightcontroller.sdnepc;
 
 import java.util.ArrayList;
 import java.util.Collection;
