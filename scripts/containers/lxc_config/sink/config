@@ -1,0 +1,11 @@
+# Network configuration for eth1
+lxc.network.type = veth
+lxc.network.flags = up
+lxc.network.link = br3
+lxc.network.mtu = 9000
+lxc.network.hwaddr = 40:8d:5c:76:d2:fa
+lxc.network.ipv4 = 10.127.41.6/16
+
+# Control group configuration
+#lxc.cgroup.memory.limit_in_bytes = 4G
+#lxc.cgroup.cpuset.cpus = 18,19,20,21,22,23,24,25
