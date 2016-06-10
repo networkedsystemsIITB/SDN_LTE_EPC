@@ -150,7 +150,7 @@ If you have a different port mapping, then you need to change the port numbers i
 If you do not have enough number of physical machines, you can use containers for the entire setup on a single machine. Besides, this provides a much higher network bandwidth compared to physical hosts which generally have 1 Gbps NIC cards. We will use LXC (Linux Containers) to install each component of our setup. LXC is a fast, lightweight, and operating system-level virtualization technology that allows us to host multiple isolated Linux systems in a single host. We need 6 containers to host the 6 components shown in Fig. 3.
 
 <div align="center">
-<img src="../images/exp_setup_containers.png" alt="Fig. 3: Setup configuration using containers" width="650" height="400" />
+<img src="images/exp_setup_containers.png" alt="Fig. 3: Setup configuration using containers" width="650" height="400" />
 </div>
 <p align="center">Fig. 2: Setup configuration using containers</p>
 
