@@ -152,7 +152,7 @@ If you do not have enough number of physical machines, you can use containers fo
 <div align="center">
 <img src="images/exp_setup_containers.png" alt="Fig. 3: Setup configuration using containers" width="650" height="400" />
 </div>
-<p align="center">Fig. 2: Setup configuration using containers</p>
+<p align="center">Fig. 3: Setup configuration using containers</p>
 
 We connect the containers using linux bridge. Besides, we don't need the ethernet switch in this setup since containers can be configured for multiple NICs. Following are the steps for setup:
 
