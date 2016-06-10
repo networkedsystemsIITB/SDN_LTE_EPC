@@ -3,7 +3,7 @@
  * install/deletes flow rules from the default switch           *
  ****************************************************************/
 
-package net.floodlightcontroller.MTP3;
+package net.floodlightcontroller.sdnepc;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
