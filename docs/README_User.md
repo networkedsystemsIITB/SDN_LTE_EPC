@@ -234,8 +234,8 @@ We connect the containers using linux bridge. Besides, we don't need the etherne
     - Data rate should be specified as xK or xM where xK denotes 'x' Kbps and xM denotes 'x' Mbps.
     - Starting port parameter is optional. It denotes the starting port of the sink servers. Its default value is 13001. It should be same for both RAN and Sink.
     - The file *ran.cpp* has some boolean parameters `(setUpTunnel, doDetach, etc)` corresponding to various LTE procedures. These can be turned ON/OFF as per requirements of the procedure. For eg. for sending data, the variables `setUpTunnel, sendData` and `assignIpToInterface`, all should be set to **true**.
-    - If you are facing the error `iperf3: error - the server is busy running a test` in the middle of simulation, then configure the following parameters in the file *utils.h*: `PER_THREAD_PORT_WINDOW` and `NUM_GLOBAL_PORTS`. Typical values can be 10 and 200 respectively. Depending on the values specified, the number of sink servers to be run will change as per the following formula:
-    `<num_iperf3_servers> = PER_THREAD_PORT_WINDOW * <num_ue> + NUM_GLOBAL_PORTS`
+    - If you are facing the error `iperf3: error - the server is busy running a test` in the middle of simulation, then configure the following parameters in the file *utils.h*: `PER_THREAD_PORT_WINDOW` and `NUM_GLOBAL_PORTS`. Typical values can be 10 and 200 respectively. Depending on the values specified, the number of sink servers to be run will change as per the following formula:<br/>
+    `<num_iperf3_servers> = PER_THREAD_PORT_WINDOW * <num_ue> + NUM_GLOBAL_PORTS` <br/>
     The error occurs when an iperf3 client tries to connect with a server on a port which was just closed by the previous client (socket close wait time).
     - Users have the option to print debug statements in both RAN and controller by setting the debug variables in the following files:
         - For RAN, set the variable *DO_DEBUG* to **1** in the file *utils.h*.
