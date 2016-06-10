@@ -1,7 +1,7 @@
 /***********************************************************************
  * This file contains all the constants used in the controller's code  *
  ***********************************************************************/
-package net.floodlightcontroller.MTP3;
+package net.floodlightcontroller.sdnepc;
 
 import java.util.HashMap;
 
