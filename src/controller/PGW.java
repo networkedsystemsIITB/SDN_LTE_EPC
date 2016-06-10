@@ -4,7 +4,7 @@
  * flow rules on  dataplane switch of PGW (PGW-D). It also   *
  * allocates IP address for the UE.                          *
  *************************************************************/
-package net.floodlightcontroller.MTP3;
+package net.floodlightcontroller.sdnepc;
 
 import java.util.ArrayList;
 import java.util.Collection;
