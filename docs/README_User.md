@@ -9,7 +9,7 @@ The manual contains all the steps to setup the SDN-based EPC. The entire setup (
 5. Sink program
 
 <div align="center">
-<img src="../images/sdn_epc_arch.png" alt="Fig. 1: SDN-based LTE EPC implementation" width="550" height="400" />
+<img src="images/sdn_epc_arch.png" alt="Fig. 1: SDN-based LTE EPC implementation" width="550" height="400" />
 </div>
 <p align="center">Fig. 1: SDN-based LTE EPC implementation</p>
 
@@ -141,7 +141,7 @@ Configure all the machines as shown in Fig. 2. For the Default Switch, SGW and P
 
 If you have a different port mapping, then you need to change the port numbers in the controller file *Constants.java*.
 <div align="center">
-<img src="../images/exp_setup.png" alt="Fig. 2: Setup configuration" width="650" height="400" />
+<img src="images/exp_setup.png" alt="Fig. 2: Setup configuration" width="650" height="400" />
 </div>
 <p align="center">Fig. 2: Setup configuration</p>
 
