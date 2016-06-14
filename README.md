@@ -37,8 +37,8 @@ We are in the process of incorporating more procedures, thus making it more stan
 #### Contents ####
 
 - Source code and scripts for various EPC components
-- A [user guide](docs/README_User.md) containing the setup and installation instructions.
-- A [developer guide](docs/README_Developer.md) which explains the structure of the source code.
+- A [user guide](docs/v1.0/README_User.md) containing the setup and installation instructions.
+- A [developer guide](docs/v1.0/README_Developer.md) which explains the structure of the source code.
 
 #### Authors ####
 
