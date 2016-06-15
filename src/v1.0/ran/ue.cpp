@@ -365,7 +365,7 @@ void UserEquipment::initiate_ue_context_release(Client &user, int ue_num, string
 		exit(1);
 	}
 
-	// Context relase complete
+	// Context release complete
 	if(networkServiceRequest) {
 		send = UE_CONTEXT_RELEASE_COMPLETE + SEPARATOR + to_string(ue_num) + SEPARATOR + ue_ip + SEPARATOR + "1" + SEPARATOR + to_string(sinkUDPServerPort);
 	}else{
