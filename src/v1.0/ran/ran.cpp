@@ -75,7 +75,7 @@ void* multithreading_func(void *arg){
 				tmpArray = setup_tunnel(ue, user, doEncryption);
 				//tmpArray: [0] = SEND_IP_SGW_TEID, [1] = IP Address of UE, [2] = SGW TEID, [3] = ue_teid, [4] = GUTI
 
-				if(tmpArray.size()==6){
+				if(tmpArray.size()==5){
 					if(s1_release){
 						do{
 							idleSleepTime = (size_t) dist_idle_time(generator);
